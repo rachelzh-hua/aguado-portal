@@ -1,0 +1,69 @@
+{
+"datasets": [
+{
+"sid": "P18V",
+"modality": "visium",
+"n_cells": 960,
+"n_genes": 8279,
+"mb": 1.6,
+"name": "P18V \u00b7 female \u00b7 diseased"
+},
+{
+"sid": "P1A",
+"modality": "visium",
+"n_cells": 1484,
+"n_genes": 12291,
+"mb": 3.8,
+"name": "P1A \u00b7 male \u00b7 diseased"
+},
+{
+"sid": "P1B",
+"modality": "visium",
+"n_cells": 1222,
+"n_genes": 12610,
+"mb": 4.0,
+"name": "P1B \u00b7 male \u00b7 diseased"
+},
+{
+"sid": "P20V",
+"modality": "visium",
+"n_cells": 647,
+"n_genes": 9162,
+"mb": 1.7,
+"name": "P20V \u00b7 male \u00b7 diseased"
+},
+{
+"sid": "P23V",
+"modality": "visium",
+"n_cells": 276,
+"n_genes": 4471,
+"mb": 0.6,
+"name": "P23V \u00b7 female \u00b7 diseased"
+},
+{
+"sid": "P29V",
+"modality": "visium",
+"n_cells": 577,
+"n_genes": 8236,
+"mb": 1.3,
+"name": "P29V \u00b7 male \u00b7 diseased"
+},
+{
+"sid": "P6A",
+"modality": "visium",
+"n_cells": 1534,
+"n_genes": 13314,
+"mb": 4.9,
+"name": "P6A \u00b7 female \u00b7 diseased"
+},
+{
+"sid": "P6B",
+"modality": "visium",
+"n_cells": 1680,
+"n_genes": 14032,
+"mb": 6.5,
+"name": "P6B \u00b7 female \u00b7 diseased"
+}
+],
+"note": "Visium spatial samples, analysis-ready: X=log1p(CP10k), layers['counts']=raw, obs=cell_type+prop_*(deconvolution)+signature/pathway scores, obsm=spatial+X_umap. Load: sc.read_h5ad(). scRNA + full raw: GEO GSE306288 (regenerate all via pipeline/data_export.py)."
+}

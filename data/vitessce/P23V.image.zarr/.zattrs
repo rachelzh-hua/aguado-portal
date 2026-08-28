@@ -1,0 +1,127 @@
+{
+  "omero": {
+    "name": "H&E",
+    "rdefs": {
+      "model": "color"
+    },
+    "channels": [
+      {
+        "label": "R",
+        "color": "FF0000",
+        "window": {
+          "start": 0,
+          "min": 0,
+          "max": 255,
+          "end": 255
+        }
+      },
+      {
+        "label": "G",
+        "color": "00FF00",
+        "window": {
+          "start": 0,
+          "min": 0,
+          "max": 255,
+          "end": 255
+        }
+      },
+      {
+        "label": "B",
+        "color": "0000FF",
+        "window": {
+          "start": 0,
+          "min": 0,
+          "max": 255,
+          "end": 255
+        }
+      }
+    ]
+  },
+  "multiscales": [
+    {
+      "datasets": [
+        {
+          "path": "s0",
+          "coordinateTransformations": [
+            {
+              "type": "scale",
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "path": "s1",
+          "coordinateTransformations": [
+            {
+              "type": "scale",
+              "scale": [
+                1.0,
+                2.001146788990826,
+                2.001589825119237
+              ]
+            }
+          ]
+        },
+        {
+          "path": "s2",
+          "coordinateTransformations": [
+            {
+              "type": "scale",
+              "scale": [
+                1.0,
+                4.002293577981652,
+                4.009554140127388
+              ]
+            }
+          ]
+        },
+        {
+          "path": "s3",
+          "coordinateTransformations": [
+            {
+              "type": "scale",
+              "scale": [
+                1.0,
+                8.004587155963304,
+                8.019108280254777
+              ]
+            }
+          ]
+        },
+        {
+          "path": "s4",
+          "coordinateTransformations": [
+            {
+              "type": "scale",
+              "scale": [
+                1.0,
+                16.009174311926607,
+                16.141025641025642
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "/",
+      "axes": [
+        {
+          "name": "c",
+          "type": "channel"
+        },
+        {
+          "name": "y",
+          "type": "space"
+        },
+        {
+          "name": "x",
+          "type": "space"
+        }
+      ],
+      "version": "0.4"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+"niches": [
+{
+"niche": "VIC-dense \u00b7 calcific",
+"n": 3312,
+"osteogenic": 0.616,
+"composition": {
+"VIC": 0.85,
+"Activated VIC": 0.025,
+"Endothelial": 0.023,
+"Macrophage": 0.048,
+"T/NK cell": 0.006,
+"B/Plasma": 0.03,
+"Mast cell": 0.017
+}
+},
+{
+"niche": "Macrophage \u00b7 VIC",
+"n": 1129,
+"osteogenic": 0.574,
+"composition": {
+"VIC": 0.319,
+"Activated VIC": 0.079,
+"Endothelial": 0.119,
+"Macrophage": 0.365,
+"T/NK cell": 0.02,
+"B/Plasma": 0.065,
+"Mast cell": 0.033
+}
+},
+{
+"niche": "VIC-dense",
+"n": 2428,
+"osteogenic": 0.553,
+"composition": {
+"VIC": 0.573,
+"Activated VIC": 0.111,
+"Endothelial": 0.068,
+"Macrophage": 0.106,
+"T/NK cell": 0.017,
+"B/Plasma": 0.088,
+"Mast cell": 0.038
+}
+},
+{
+"niche": "Macrophage-dense",
+"n": 791,
+"osteogenic": 0.53,
+"composition": {
+"VIC": 0.081,
+"Activated VIC": 0.017,
+"Endothelial": 0.09,
+"Macrophage": 0.778,
+"T/NK cell": 0.011,
+"B/Plasma": 0.014,
+"Mast cell": 0.01
+}
+},
+{
+"niche": "Activated VIC-dense",
+"n": 720,
+"osteogenic": 0.261,
+"composition": {
+"VIC": 0.135,
+"Activated VIC": 0.734,
+"Endothelial": 0.021,
+"Macrophage": 0.029,
+"T/NK cell": 0.022,
+"B/Plasma": 0.024,
+"Mast cell": 0.036
+}
+}
+],
+"order": [
+"Activated VIC-dense",
+"VIC-dense \u00b7 calcific",
+"Macrophage-dense",
+"VIC-dense",
+"Macrophage \u00b7 VIC"
+]
+}
